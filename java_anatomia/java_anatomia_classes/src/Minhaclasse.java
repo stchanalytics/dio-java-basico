@@ -1,6 +1,14 @@
 public class Minhaclasse {
     public static void main (String [] args){
-        System.out.print("Olá pessoal! Como estão se sentindo hoje?");
+        String primeiroNome = "Sarah";
+        String segundoNome = "Aguiar";
+
+        String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+
+        System.out.println(nomeCompleto);
+    }
+    public static String nomeCompleto (String primeiroNome, String segundoNome){
+           return primeiroNome.concat("").concat(segundoNome);
     }
     
 }
